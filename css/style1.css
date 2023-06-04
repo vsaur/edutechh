@@ -1,0 +1,37 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background: url(/image/bg1.jpg);
+}
+.header h1
+{
+    font-size: 50px;
+    padding: 6px;
+}
+.container
+{
+    font-size: 20px;
+    padding: 2px;
+}
+.container_nev
+{
+    font-size: 20px;
+}
+.container_bool
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container_bool .button
+{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 2px solid black;
+}
+.container_bool .button:hover
+{
+    background-color: lightblue;
+}
